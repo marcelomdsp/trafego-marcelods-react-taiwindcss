@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --verde: #86c232;
+  --cinza: #6b6e70;
+  --branco: #fafafa;
+  --marrom: #141414;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--marrom);
+  color: var(--branco);
+}
+
+/*--marrom: #2d2a27;*/
